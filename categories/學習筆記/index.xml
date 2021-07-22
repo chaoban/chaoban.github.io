@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>學習筆記 on 肇邦的部落格 | Chao Pang Blog</title>
+    <title>學習筆記 on 肇邦個人知識庫</title>
     <link>https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</link>
-    <description>Recent content in 學習筆記 on 肇邦的部落格 | Chao Pang Blog</description>
+    <description>Recent content in 學習筆記 on 肇邦個人知識庫</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 20 Jul 2021 22:07:47 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />

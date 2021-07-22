@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on 肇邦的部落格 | Chao Pang Blog</title>
+    <title>Markdown on 肇邦個人知識庫</title>
     <link>https://chaoban.github.io/tags/markdown/</link>
-    <description>Recent content in Markdown on 肇邦的部落格 | Chao Pang Blog</description>
+    <description>Recent content in Markdown on 肇邦個人知識庫</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 22 Jul 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
