@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typora on 肇邦個人知識庫</title>
+    <link>https://chaoban.github.io/tags/typora/</link>
+    <description>Recent content in Typora on 肇邦個人知識庫</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 22 Jul 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/typora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>個人網誌建立綱要</title>
+      <link>https://chaoban.github.io/blog/%E5%80%8B%E4%BA%BA%E7%B6%B2%E8%AA%8C/</link>
+      <pubDate>Thu, 22 Jul 2021 11:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/%E5%80%8B%E4%BA%BA%E7%B6%B2%E8%AA%8C/</guid>
+      <description>怕忘記步驟細節，在這裡做一下筆記。只凸顯其關係，沒有軟體安裝設定相關細節。 有需要的話Googleu一下即可。
+ 會用到的軟體或服務   Github   Github Desktop   Hugo   Visual Studio Code   Typora   在Github上申請個人帳號 例如我的帳號為chaoban。 Github網址為 https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
