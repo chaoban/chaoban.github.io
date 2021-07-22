@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 肇邦的部落格 | Chao Pang Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 22 Jul 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://chaoban.github.io/categories/hugo/</link>
+      <pubDate>Thu, 22 Jul 2021 11:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ROS</title>
       <link>https://chaoban.github.io/categories/ros/</link>

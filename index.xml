@@ -6,16 +6,26 @@
     <description>Recent content on 肇邦的部落格 | Chao Pang Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 22 Jul 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>個人網誌的建立</title>
+      <link>https://chaoban.github.io/blog/%E5%80%8B%E4%BA%BA%E7%B6%B2%E8%AA%8C/</link>
+      <pubDate>Thu, 22 Jul 2021 11:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/%E5%80%8B%E4%BA%BA%E7%B6%B2%E8%AA%8C/</guid>
+      <description>怕忘記步驟細節，在這裡做一下筆記。只凸顯其關係。沒有軟體安裝設定相關細節。
+ 會用到的軟體或服務   Github   Github Desktop   Hugo   Visual Studio Code   Typora   在Github上申請個人帳號 例如我的帳號為chaoban。 Github網址為 https://github.</description>
+    </item>
+    
     <item>
       <title>OpenManipulator-X</title>
       <link>https://chaoban.github.io/blog/openmanipulator/</link>
       <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/openmanipulator/</guid>
-      <description>啟動OpenManipulator-X的第一步 ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中，ROS2的相關套件仍未完善。目前仍是ROS1的支援性比較完整。ROS_Robot_Programming一書的講解，仍是以ROS1。以下為ROS1指令。
-啟動OpenManipulator-X Controller的指令 In Terminal 1
-$ roscoreIn Terminal 2</description>
+      <description>簡單記錄一下，讓OpenManipuator-X動起來的第一步。
+ 啟動OpenManipulator-X的第一步 ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中，ROS2的相關套件仍未完善。目前仍是ROS1的支援性比較完整。ROS_Robot_Programming一書的講解，仍是以ROS1。以下為ROS1指令。
+啟動OpenManipulator-X Controller的指令 In Terminal 1</description>
     </item>
     
     <item>
@@ -34,9 +44,10 @@ $ roscoreIn Terminal 2</description>
       <pubDate>Tue, 20 Jul 2021 22:07:47 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/markdown/</guid>
-      <description>Markdown語法 這是內文，這樣小的文字
-1級標題 2級標題 3級標題 4級標題 5級標題 6級標題 我是粗體文字
-我是斜體文字</description>
+      <description>typora 是一個所見即所得的Markdown撰寫工具
+比較好用喔
+ Markdown語法 這是內文，這樣小的文字
+1級標題 2級標題 3級標題 4級標題 5級標題 6級標題 我是粗體文字</description>
     </item>
     
   </channel>
