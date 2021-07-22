@@ -6,7 +6,43 @@
     <description>Recent content in Tags on 肇邦的部落格 | Chao Pang Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 21 Jul 2021 15:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenManipulator</title>
+      <link>https://chaoban.github.io/tags/openmanipulator/</link>
+      <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/tags/openmanipulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://chaoban.github.io/tags/ros/</link>
+      <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turtlebot</title>
+      <link>https://chaoban.github.io/tags/turtlebot/</link>
+      <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/tags/turtlebot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>URDF</title>
+      <link>https://chaoban.github.io/tags/urdf/</link>
+      <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/tags/urdf/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Volvo</title>
       <link>https://chaoban.github.io/tags/volvo/</link>
