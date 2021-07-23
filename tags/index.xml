@@ -178,23 +178,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Youtube</title>
-      <link>https://chaoban.github.io/tags/youtube/</link>
-      <pubDate>Wed, 21 Jul 2021 15:00:00 +0800</pubDate>
-      
-      <guid>https://chaoban.github.io/tags/youtube/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>廣告</title>
-      <link>https://chaoban.github.io/tags/%E5%BB%A3%E5%91%8A/</link>
-      <pubDate>Wed, 21 Jul 2021 15:00:00 +0800</pubDate>
-      
-      <guid>https://chaoban.github.io/tags/%E5%BB%A3%E5%91%8A/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
