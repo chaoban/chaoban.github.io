@@ -8,7 +8,7 @@
     <language>zh-tw</language>
     <lastBuildDate>Thu, 22 Jul 2021 15:50:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>書籍</title>
+      <title>資訊書籍</title>
       <link>https://chaoban.github.io/blog/booklist/</link>
       <pubDate>Thu, 22 Jul 2021 15:50:00 +0800</pubDate>
       
@@ -18,7 +18,7 @@
     </item>
     
     <item>
-      <title>考取挖掘機技術士證照</title>
+      <title>挖掘機技術士證照</title>
       <link>https://chaoban.github.io/blog/excavator/</link>
       <pubDate>Thu, 22 Jul 2021 15:10:00 +0800</pubDate>
       
@@ -41,7 +41,7 @@
     </item>
     
     <item>
-      <title>我建立這個個人網誌會用到的軟體或服務</title>
+      <title>建立這個網誌所用到的軟體或服務</title>
       <link>https://chaoban.github.io/blog/%E5%80%8B%E4%BA%BA%E7%B6%B2%E8%AA%8C/</link>
       <pubDate>Thu, 22 Jul 2021 11:00:00 +0800</pubDate>
       
@@ -71,6 +71,16 @@ ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中�
       <description> 每個人的夢想都不該被毀滅
 配樂也是我很喜歡的
    From 東森愛玩車 配樂：Final Minutes and the Mountains </description>
+    </item>
+    
+    <item>
+      <title>鏟裝機技術士證照</title>
+      <link>https://chaoban.github.io/blog/wheelloader/</link>
+      <pubDate>Wed, 21 Jul 2021 15:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/wheelloader/</guid>
+      <description> 雖然在今年四月開課了，並完成學科課程。但是還沒來得及開始術科課程，在五月19日因為Covid-19 Level 3 Alert，所有課程暫停實施，連國軍退輔會的技能檢定也全面停止。只好留到明年再來分享了。
+ </description>
     </item>
     
     <item>
