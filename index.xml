@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>肇邦個人知識庫</title>
+    <title>Chaoban Think Tank</title>
     <link>https://chaoban.github.io/</link>
-    <description>Recent content on 肇邦個人知識庫</description>
+    <description>Recent content on Chaoban Think Tank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 22 Jul 2021 15:50:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -68,8 +68,8 @@ ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中�
       
       <guid>https://chaoban.github.io/blog/xc60/</guid>
       <description>每個人的夢想不該被毀滅
- From 東森愛玩車
-配樂：Final Minutes and the Mountains</description>
+  From 東森愛玩車
+  配樂：Final Minutes and the Mountains</description>
     </item>
     
     <item>
