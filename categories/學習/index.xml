@@ -38,7 +38,7 @@ ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中�
       <description>typora 是一個所見即所得的Markdown撰寫工具
 比較好用喔
  Markdown語法 這是內文，這樣小的文字
-1級標題 2級標題 3級標題 4級標題 5級標題 6級標題 我是粗體文字</description>
+1級標題 2級標題 3級標題 4級標題 5級標題 6級標題  斜體</description>
     </item>
     
   </channel>
