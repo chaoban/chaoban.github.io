@@ -27,8 +27,8 @@
       <guid>https://chaoban.github.io/blog/markdown/</guid>
       <description>Typora 是一個所見即所得的Markdown撰寫工具，比較好用喔。
 或是參考古老師的教學網站Github 免費架站術！輕鬆打造個人品牌。
- Markdown語法  語法
-# 1級標題 1級標題  語法</description>
+ Markdown語法  1級標題的語法
+# 這是1級標題 這是1級標題  2級標題的語法</description>
     </item>
     
   </channel>
