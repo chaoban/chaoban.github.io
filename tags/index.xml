@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Chaoban Think Tank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 22 Jul 2021 15:50:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 18:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROS</title>
+      <link>https://chaoban.github.io/tags/ros/</link>
+      <pubDate>Tue, 27 Jul 2021 18:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>天瓏書局</title>
       <link>https://chaoban.github.io/tags/%E5%A4%A9%E7%93%8F%E6%9B%B8%E5%B1%80/</link>
@@ -103,15 +112,6 @@
       <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
       
       <guid>https://chaoban.github.io/tags/openmanipulator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROS</title>
-      <link>https://chaoban.github.io/tags/ros/</link>
-      <pubDate>Thu, 22 Jul 2021 09:00:00 +0800</pubDate>
-      
-      <guid>https://chaoban.github.io/tags/ros/</guid>
       <description></description>
     </item>
     

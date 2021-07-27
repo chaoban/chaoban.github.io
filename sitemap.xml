@@ -3,13 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://chaoban.github.io/categories/</loc>
-    <lastmod>2021-07-22T15:50:00+08:00</lastmod>
+    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/</loc>
-    <lastmod>2021-07-22T15:50:00+08:00</lastmod>
+    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/tags/ros/</loc>
+    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/blog/ros_instruction/</loc>
+    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/tags/</loc>
-    <lastmod>2021-07-22T15:50:00+08:00</lastmod>
+    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/tags/%E5%A4%A9%E7%93%8F%E6%9B%B8%E5%B1%80/</loc>
     <lastmod>2021-07-22T15:50:00+08:00</lastmod>
@@ -56,16 +65,10 @@
     <loc>https://chaoban.github.io/tags/vscode/</loc>
     <lastmod>2021-07-22T11:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2021-07-22T11:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://chaoban.github.io/blog/%E5%80%8B%E4%BA%BA%E7%B6%B2%E8%AA%8C/</loc>
     <lastmod>2021-07-22T11:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/tags/openmanipulator/</loc>
-    <lastmod>2021-07-22T09:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://chaoban.github.io/tags/ros/</loc>
     <lastmod>2021-07-22T09:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/blog/openmanipulator/</loc>

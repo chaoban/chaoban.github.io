@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一些Markdown語法">
+  <meta name="description" content="學習ROS時做的筆記，不然常常忘記一些專有名詞的觀念">
   <meta name="author" content="Chao Pang">
   <meta name="generator" content="Hugo 0.85.0" />
 
@@ -114,136 +114,127 @@
         <a href="/categories/%e5%ad%b8%e7%bf%92"
           class="text-primary">學習</a>
         
-        <h2>常用的Markdown語法範例</h2>
+        <h2>ROS概念和指令</h2>
         <div class="mb-3 post-meta">
           <span>By Chao Pang</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>2021-07-20</span>
+          <span>2021-07-27</span>
           
         </div>
         
-        <img src="https://chaoban.github.io/images/post/MT.png" class="img-fluid w-100 mb-4" alt="常用的Markdown語法範例">
+        <img src="https://chaoban.github.io/images/post/rosbook.png" class="img-fluid w-100 mb-4" alt="ROS概念和指令">
         
         <div class="content mb-5">
-          <h3 id="參考古老師的教學網站">參考古老師的教學網站</h3>
-<h2 id="github-免費架站術輕鬆打造個人品牌httpshahowincourses5de8fec16117240026540b9cdiscussionsitem5de9c2d04e5f270021469334"><a href="https://hahow.in/courses/5de8fec16117240026540b9c/discussions?item=5de9c2d04e5f270021469334">Github 免費架站術！輕鬆打造個人品牌</a></h2>
-<h3 id="線上練習">線上練習</h3>
-<h2 id="hackmdhttpshackmdio"><strong><a href="https://hackmd.io">HackMD</a></strong></h2>
+          <blockquote>
+<p>這是我閱讀一書 <strong>ROS Robot Programming(A Handbook Written by Turtlebot3 Developers)</strong> 的筆記，主要在<code>第四章</code>和<code>第五章</code>。</p>
+</blockquote>
 <hr>
-<h1 id="markdown語法">Markdown語法</h1>
-<blockquote>
-<p><strong>1級標題的語法</strong></p>
-<pre><code># 這是1級標題
-</code></pre></blockquote>
-<h1 id="這是1級標題">這是1級標題</h1>
-<blockquote>
-<p><strong>2級標題的語法</strong></p>
-<pre><code>## 這是2級標題
-</code></pre></blockquote>
-<h2 id="這是2級標題">這是2級標題</h2>
-<blockquote>
-<p><strong>3級標題的語法</strong></p>
-<pre><code>### 這是3級標題
-</code></pre></blockquote>
-<h3 id="這是3級標題">這是3級標題</h3>
-<blockquote>
-<p><strong>4級標題的語法</strong></p>
-<pre><code>#### 這是4級標題
-</code></pre></blockquote>
-<h4 id="這是4級標題">這是4級標題</h4>
-<blockquote>
-<p><strong>5級標題的語法</strong></p>
-<pre><code>##### 這是5級標題
-</code></pre></blockquote>
-<h5 id="這是5級標題">這是5級標題</h5>
-<blockquote>
-<p><strong>6級標題的語法</strong></p>
-<pre><code>###### 這是6級標題
-</code></pre></blockquote>
-<h6 id="這是6級標題">這是6級標題</h6>
-<blockquote>
-<p><strong>斜體的語法</strong></p>
-<pre><code>*這是斜體*
-</code></pre></blockquote>
-<p><em>這是斜體</em></p>
-<blockquote>
-<p><strong>粗體的語法</strong></p>
-<pre><code>**這是粗體**
-</code></pre></blockquote>
-<p><strong>這是粗體</strong></p>
-<blockquote>
-<p><strong>刪除線的語法</strong></p>
-<pre><code>~這是刪除線~
-</code></pre></blockquote>
-<p><del>這是刪除線</del></p>
-<blockquote>
-<pre><code>==這是HighLight==
-</code></pre></blockquote>
-<h4 id="沒有沒有highlight">==沒有，沒有HighLight==</h4>
-<blockquote>
-<p><strong>有序序列的語法</strong></p>
-<pre><code>1. 有序序列
-    1. 四個空白鍵內縮
-1. 再一個有序序列
-</code></pre></blockquote>
+<h3 id="概念">概念</h3>
+<h4 id="master">Master</h4>
+<p>負責節點到節點的連接和消息通信。類似一個Name Server。roscore是它的運行命令。</p>
+<h4 id="node">Node</h4>
+<p>最小運行處理單元，可以視為一個執行程式。</p>
+<h4 id="package">Package</h4>
+<p>構成ROS的基本單元。ROS應用程式是以Package為單位開發的。</p>
+<h4 id="metapackage">Metapackage</h4>
+<p>具有共同目的的Package的集合。例如導航Metapackage，包含了AMCL，DWA，EKF…等10多種Package。</p>
+<h4 id="message">Message</h4>
 <ol>
-<li>有序序列
+<li>
+<p><code>Topic</code> 單向，異步</p>
+</li>
+<li>
+<p><code>Service</code> 雙向，同步</p>
+</li>
+<li>
+<p><code>Action</code> 雙向，異步</p>
 <ol>
-<li>四個空白鍵內縮</li>
+<li><code>Goal</code> 目標</li>
+<li><code>Result</code> 結果</li>
+<li><code>Feedback</code> 回饋</li>
+</ol>
+<h5 id="topic">Topic</h5>
+<p>為單向的消息發送與接收。Publisher和Subscriber，用Topic發送和接收訊息。</p>
+<h5 id="service">Service</h5>
+<p>為雙向的消息請求與回應。</p>
+<h5 id="action">Action</h5>
+<p>為雙向消息Goal、Result、與Feedback。</p>
+</li>
+</ol>
+<hr>
+<h3 id="指令">指令</h3>
+<ol>
+<li>
+<h5 id="shell命令">Shell命令</h5>
+<ol>
+<li>
+<h5 id="roscd">roscd</h5>
+</li>
+</ol>
+<p>切換到ros功能包的目錄。</p>
+<p><strong>roscd [功能包名稱]</strong></p>
+<p><strong>$ roscd turtlesim</strong></p>
+</li>
+<li>
+<h5 id="運行命令">運行命令</h5>
+<ol>
+<li>
+<p><code>roscore</code></p>
+<p>執行主節點。主節點管理節點之間的訊息通訊中的連結訊息。包括master（ROS名稱服務）+ rosout（日誌）+ parameter server（參數管理）。ROS_MASTER_URI作為主節點的URI，在<code>~/.bashrc</code>中設置。</p>
+</li>
+<li>
+<p><code>rosrun</code></p>
+<p>運行ROS節點。
+<strong>rosrun [功能包名稱] [節點名稱]</strong></p>
+<p><strong>$ rosrun turtlesim turtlesim_node</strong></p>
+</li>
+<li>
+<p><code>roslaunch</code></p>
+<p>運行多個ROS節點，及設定運行選項。</p>
+<p><strong>roslaunch [功能包名稱] [launch檔案名稱]</strong></p>
+<p><strong>$ roslaunch openni_launch openni.launch</strong></p>
+</li>
+<li>
+<p><code>rosclean</code></p>
+<p>檢查或刪除ROS日誌。</p>
+<p><strong>rosclean [選項]</strong></p>
+<p><strong>$ rosclean check</strong></p>
+<p><strong>$ rosclean purge</strong></p>
+<p>Log files位於/home/rt/.ros/log</p>
+</li>
 </ol>
 </li>
-<li>再一個有序序列</li>
+<li>
+<h5 id="訊息命令">訊息命令</h5>
+<ol>
+<li><code>rosnode</code></li>
+<li><code>rostopic</code></li>
+<li><code>rosservice</code></li>
+<li><code>rosparam</code></li>
+<li><code>rosmsg</code></li>
+<li><code>rossrv</code></li>
+<li><code>rosbag</code></li>
 </ol>
-<blockquote>
-<p><strong>無序序列的語法</strong></p>
-<pre><code>* 無序序列
-    * 四個空白鍵內縮
-* 再一個無序序列
-</code></pre></blockquote>
-<ul>
-<li>無序序列
-<ul>
-<li>四個空白鍵內縮</li>
-</ul>
 </li>
-<li>再一個無序序列</li>
-</ul>
-<blockquote>
-<p><strong>引用的語法</strong></p>
-<pre><code>&gt; 這是引用一些文字
-</code></pre><p>這是引用一些文字</p>
-</blockquote>
-<blockquote>
-<p><strong>加入超連結的語法</strong></p>
-<pre><code>[我的 Github 網站](https://github.com/chaoban)
-</code></pre></blockquote>
-<p><a href="https://github.com/chaoban">我的 Github 網站</a></p>
-<blockquote>
-<p><strong>連結到其他頁面的語法</strong></p>
-<pre><code>[返回部落格](/blog/post-1)
-</code></pre></blockquote>
-<p><a href="/blog/post-1">返回部落格</a></p>
-<blockquote>
-<p><strong>加入一張圖片的語法</strong></p>
-<pre><code>![](/images/post/MT.png)
-</code></pre></blockquote>
-<p><img src="/images/post/MT.png" alt=""></p>
-<blockquote>
-<p><strong>單行程式碼的語法</strong></p>
-<pre><code>單行程式碼`printf(&quot;Hello World&quot;)`
-</code></pre></blockquote>
-<p>單行程式碼<code>printf(&quot;Hello World&quot;)</code></p>
-<blockquote>
-<p>多行程式碼</p>
-</blockquote>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#000">printf</span>(<span style="color:#5a2">&#34;這是多行程式碼&#34;</span>)
-<span style="color:#000">package</span> <span style="color:#000">main</span>
-<span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-<span style="color:#000">func</span> <span style="color:#000">main</span>() {
-	<span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#5a2">&#34;Hello, World!&#34;</span>)
-}
-</code></pre></div>
+<li>
+<h5 id="catkin命令">catkin命令</h5>
+<ol>
+<li><code>catkin_create_pkg</code></li>
+<li><code>catkin_make</code></li>
+<li><code>catkin_init_workspace</code></li>
+</ol>
+</li>
+<li>
+<h5 id="功能包命令">功能包命令</h5>
+<ol>
+<li><code>rospack</code></li>
+<li><code>rosinstall</code></li>
+<li><code>rosdep</code></li>
+</ol>
+</li>
+</ol>
+
         </div>
 
         

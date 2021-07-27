@@ -8,6 +8,15 @@
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://chaoban.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>ROS概念和指令</title>
+      <link>https://chaoban.github.io/blog/ros_instruction/</link>
+      <pubDate>Tue, 27 Jul 2021 18:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/ros_instruction/</guid>
+      <description>這是我閱讀一書 ROS Robot Programming(A Handbook Written by Turtlebot3 Developers) 的筆記，主要在第四章和第五章。</description>
+    </item>
+    
+    <item>
       <title>資訊書籍</title>
       <link>https://chaoban.github.io/blog/booklist/</link>
       <pubDate>Thu, 22 Jul 2021 15:50:00 +0800</pubDate>
@@ -90,9 +99,7 @@ ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中�
       <pubDate>Tue, 20 Jul 2021 22:07:47 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/markdown/</guid>
-      <description>Typora 是一個所見即所得的Markdown撰寫工具，比較好用喔。
-或是參考古老師的教學網站Github 免費架站術！輕鬆打造個人品牌。
- Markdown語法  1級標題的語法
+      <description>參考古老師的教學網站 Github 免費架站術！輕鬆打造個人品牌 線上練習 HackMD  Markdown語法  1級標題的語法
 # 這是1級標題  這是1級標題  2級標題的語法</description>
     </item>
     

@@ -6,7 +6,16 @@
     <description>Recent content in ROS on Chaoban Think Tank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 22 Jul 2021 09:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 18:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ROS概念和指令</title>
+      <link>https://chaoban.github.io/blog/ros_instruction/</link>
+      <pubDate>Tue, 27 Jul 2021 18:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/ros_instruction/</guid>
+      <description>這是我閱讀一書 ROS Robot Programming(A Handbook Written by Turtlebot3 Developers) 的筆記，主要在第四章和第五章。</description>
+    </item>
+    
     <item>
       <title>啟動OpenManipulator-X的第一步</title>
       <link>https://chaoban.github.io/blog/openmanipulator/</link>
