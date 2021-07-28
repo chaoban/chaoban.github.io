@@ -3,10 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://chaoban.github.io/categories/</loc>
-    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
+    <lastmod>2021-07-28T11:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/</loc>
-    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
+    <lastmod>2021-07-28T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/tags/git/</loc>
+    <lastmod>2021-07-28T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/blog/git/</loc>
+    <lastmod>2021-07-28T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/tags/</loc>
+    <lastmod>2021-07-28T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2021-07-28T11:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/tags/ros/</loc>
     <lastmod>2021-07-27T18:00:00+08:00</lastmod>
@@ -14,13 +26,7 @@
     <loc>https://chaoban.github.io/blog/ros_instruction/</loc>
     <lastmod>2021-07-27T18:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://chaoban.github.io/tags/</loc>
-    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2021-07-27T18:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://chaoban.github.io/tags/%E5%A4%A9%E7%93%8F%E6%9B%B8%E5%B1%80/</loc>
+    <loc>https://chaoban.github.io/tags/%E5%A4%A9%E7%93%8F/</loc>
     <lastmod>2021-07-22T15:50:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
@@ -29,13 +35,7 @@
     <loc>https://chaoban.github.io/blog/booklist/</loc>
     <lastmod>2021-07-22T15:50:00+08:00</lastmod>
   </url><url>
-    <loc>https://chaoban.github.io/tags/excavator/</loc>
-    <lastmod>2021-07-22T15:10:00+08:00</lastmod>
-  </url><url>
-    <loc>https://chaoban.github.io/tags/%E6%8C%96%E5%9C%9F%E6%A9%9F/</loc>
-    <lastmod>2021-07-22T15:10:00+08:00</lastmod>
-  </url><url>
-    <loc>https://chaoban.github.io/tags/%E6%8C%96%E6%8E%98%E6%A9%9F/</loc>
+    <loc>https://chaoban.github.io/tags/%E6%80%AA%E6%89%8B/</loc>
     <lastmod>2021-07-22T15:10:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/blog/excavator/</loc>
@@ -77,9 +77,6 @@
     <loc>https://chaoban.github.io/tags/volvo/</loc>
     <lastmod>2021-07-21T15:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://chaoban.github.io/tags/wheel-loader/</loc>
-    <lastmod>2021-07-21T15:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://chaoban.github.io/tags/xc60/</loc>
     <lastmod>2021-07-21T15:00:00+08:00</lastmod>
   </url><url>
@@ -90,9 +87,6 @@
     <lastmod>2021-07-21T15:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/blog/xc60/</loc>
-    <lastmod>2021-07-21T15:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://chaoban.github.io/tags/%E9%8F%9F%E8%A3%9D%E6%A9%9F/</loc>
     <lastmod>2021-07-21T15:00:00+08:00</lastmod>
   </url><url>
     <loc>https://chaoban.github.io/blog/wheelloader/</loc>

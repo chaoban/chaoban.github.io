@@ -6,7 +6,16 @@
     <description>Recent content on Chaoban Think Tank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 27 Jul 2021 18:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 2.0</title>
+      <link>https://chaoban.github.io/blog/git/</link>
+      <pubDate>Wed, 28 Jul 2021 11:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/git/</guid>
+      <description>自從 git 升級為 2.x 版本之後，push 模式就調整為兩種模式 Matching、Simple 如果你沒有設定，在push 就現出以下警告訊息  warning: push.</description>
+    </item>
+    
     <item>
       <title>ROS概念和指令</title>
       <link>https://chaoban.github.io/blog/ros_instruction/</link>
