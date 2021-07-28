@@ -124,12 +124,20 @@
         </div>
         
         <div class="content mb-5">
-          <h6 id="自從-git-升級為-2x-版本之後push-模式就調整為兩種模式-matchingsimple-如果你沒有設定在push-就現出以下警告訊息">自從 git 升級為 2.x 版本之後，push 模式就調整為兩種模式 Matching、Simple 如果你沒有設定，在push 就現出以下警告訊息</h6>
+          <h6 id="push-an-existing-repository-from-the-command-line">push an existing repository from the command line</h6>
+<pre><code>git remote add origin https://github.com/chaoban/test_github.git
+git branch -M main
+git push -u origin main
+</code></pre><p><code>git remote add origin https://github.com/chaoban/test_github.git</code> 用remote意味著對遠端repoistory操作，新增origin到repo內。</p>
+<p><code>git branch -M main</code> 新增一個branch，叫做main。</p>
+<p><code>git push -u origin main</code> 把main這個branch的資料推到origin內。</p>
+<hr>
+<h6 id="自從-git-升級為-2x-版本之後push-模式就調整為兩種模式-matchingsimple-如果你沒有設定在push-就現出以下警告訊息">自從 git 升級為 2.x 版本之後，push 模式就調整為兩種模式 Matching、Simple 如果你沒有設定，在push 就現出以下警告訊息</h6>
 <blockquote>
 <p>warning: push.default is unset; its implicit value is changing in Git 2.0 from ‘matching’ &gt; to ‘simple’. To squelch this message and maintain the current behavior after the default &gt; changes, use:</p>
-<p>​	git config —global push.default matching</p>
+<p>​	git config &ndash;global push.default matching</p>
 <p>To squelch this message and adopt the new behavior now, use:</p>
-<p>​	git config —global push.default simple</p>
+<p>​	git config &ndash;global push.default simple</p>
 </blockquote>
 <h5 id="matching">Matching</h5>
 <p>​	Push 設定為 upstream 的 branch</p>
@@ -137,7 +145,7 @@
 <p>​	Push 當下所在的 branch，其餘 branch 不會push</p>
 <p>在 git 2.0 之前，預設使用的是 Matching
 在 git 2.0 後，我是設定</p>
-<p>​	<code>git config —global push.default simple</code></p>
+<p>​	<code>git config --global push.default simple</code></p>
 <p>如果需要 push all branch 可以使用<code>--all</code> 參數</p>
 <p><code>$ git push --all</code></p>
 <hr>

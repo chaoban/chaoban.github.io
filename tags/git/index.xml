@@ -13,7 +13,7 @@
       <pubDate>Wed, 28 Jul 2021 11:00:00 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/git/</guid>
-      <description>自從 git 升級為 2.x 版本之後，push 模式就調整為兩種模式 Matching、Simple 如果你沒有設定，在push 就現出以下警告訊息  warning: push.</description>
+      <description>push an existing repository from the command line git remote add origin https://github.</description>
     </item>
     
   </channel>

@@ -13,7 +13,7 @@
       <pubDate>Wed, 28 Jul 2021 11:00:00 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/git/</guid>
-      <description>自從 git 升級為 2.x 版本之後，push 模式就調整為兩種模式 Matching、Simple 如果你沒有設定，在push 就現出以下警告訊息  warning: push.</description>
+      <description>push an existing repository from the command line git remote add origin https://github.</description>
     </item>
     
     <item>
@@ -67,7 +67,7 @@
       <description>怕忘記步驟細節，在這裡做綱要。只凸顯其功能和程序，沒有安裝或設定細節。有需要的話Google一下即可。
 或是參考古老師的教學網站Github 免費架站術！輕鬆打造個人品牌。
 下面這是會用到的軟體：
-   Github   Github Desktop   Hugo   Visual Studio Code   Typora    在Github上申請個人帳號 我的帳號為chaoban那麼Github網址即為 https://github.</description>
+   Github   Github Desktop   Hugo   Visual Studio Code   Typora    在Github上申請個人帳號 我的帳號為chaoban 那麼Github網址即為 https://github.</description>
     </item>
     
     <item>
@@ -109,7 +109,7 @@ ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中�
       
       <guid>https://chaoban.github.io/blog/markdown/</guid>
       <description>參考古老師的教學網站 Github 免費架站術！輕鬆打造個人品牌 線上練習 HackMD  Markdown語法  1級標題的語法
-# 這是1級標題 這是1級標題  2級標題的語法</description>
+# 這是1級標題  這是1級標題  2級標題的語法</description>
     </item>
     
   </channel>
