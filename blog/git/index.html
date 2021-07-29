@@ -124,7 +124,38 @@
         </div>
         
         <div class="content mb-5">
-          <h6 id="push-an-existing-repository-from-the-command-line">push an existing repository from the command line</h6>
+          <blockquote>
+<p>為響應黑人平權運動，<a href="https://github.com/github/renaming">GitHub宣布</a>從2020/10月起改變新Git儲存庫的預設命名，以<code>main</code>來取代原本的<code>master</code>。</p>
+</blockquote>
+<p><strong>1. 下載現有的遠端儲存庫Github的repo</strong>
+<code>git clone https://github.com/chaoban/hahowgit.git</code></p>
+<p><strong>2. 或者，在本地端新建一個儲存庫，並和遠端儲存庫Github的repo做連結</strong></p>
+<ul>
+<li>
+<p>新建立一個檔案並commit到本地儲存庫(repo)內。</p>
+<pre><code>echo &quot;# hahowgit&quot; &gt;&gt; README.md
+git init
+git add README.md
+git commit -m &quot;first commit&quot;
+</code></pre></li>
+<li>
+<p>將本地儲存庫和遠端儲存庫Github的repo做連結 (補充: 下面指令執行時，可搭配<code>git remote show origin</code>看每一階段的訊息)</p>
+</li>
+</ul>
+<p>​	<strong>1. 新建一個名稱為main的branch</strong></p>
+<p>​		<code>git branch -M main</code></p>
+<p>​	<strong>2. 新增一個叫做origin的遠端儲存庫</strong>，它的url為https://github.com/chaoban/hahowgit.git</p>
+<p>​		<code>git remote add origin https://github.com/chaoban/hahowgit.git</code></p>
+<p>​	<strong>3. 把現在所在的main這個branch的資料，推到origin這個儲存庫內</strong> (補充: HEAD是工作目錄現在所在的commit)</p>
+<p>​		<code>git push -u origin main</code></p>
+<p><strong>3. 又或者，將現有的本地儲存庫和遠端儲存Github的repo做連結</strong></p>
+<pre><code>git remote add origin https://github.com/chaoban/hahowgit.git
+git branch -M main
+git push -u origin main
+</code></pre><p><strong>4. 將本地儲存庫的資料(已經commit)上傳到遠端儲存庫Github</strong></p>
+<p><code>git push</code></p>
+<hr>
+<h6 id="push-an-existing-repository-from-the-command-line">push an existing repository from the command line</h6>
 <pre><code>git remote add origin https://github.com/chaoban/test_github.git
 git branch -M main
 git push -u origin main
@@ -149,9 +180,6 @@ git push -u origin main
 <p>如果需要 push all branch 可以使用<code>--all</code> 參數</p>
 <p><code>$ git push --all</code></p>
 <hr>
-<blockquote>
-<p>為響應黑人平權運動，<a href="https://github.com/github/renaming">GitHub宣布</a>從2020/10月起改變新Git儲存庫的預設命名，以<code>main</code>來取代原本的<code>master</code>。</p>
-</blockquote>
 
         </div>
 

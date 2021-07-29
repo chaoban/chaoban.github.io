@@ -13,7 +13,9 @@
       <pubDate>Wed, 28 Jul 2021 11:00:00 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/git/</guid>
-      <description>push an existing repository from the command line git remote add origin https://github.</description>
+      <description>為響應黑人平權運動，GitHub宣布從2020/10月起改變新Git儲存庫的預設命名，以main來取代原本的master。
+ 1. 下載現有的遠端儲存庫Github的repo git clone https://github.com/chaoban/hahowgit.git
+2. 或者，在本地端新建一個儲存庫，並和遠端儲存庫Github的repo做連結</description>
     </item>
     
     <item>
@@ -67,7 +69,7 @@
       <description>怕忘記步驟細節，在這裡做綱要。只凸顯其功能和程序，沒有安裝或設定細節。有需要的話Google一下即可。
 或是參考古老師的教學網站Github 免費架站術！輕鬆打造個人品牌。
 下面這是會用到的軟體：
-   Github   Github Desktop   Hugo   Visual Studio Code   Typora    在Github上申請個人帳號 我的帳號為chaoban 那麼Github網址即為 https://github.</description>
+   Github   Github Desktop   Hugo   Visual Studio Code   Typora    在Github上申請個人帳號 我的帳號為chaoban那麼Github網址即為 https://github.</description>
     </item>
     
     <item>
@@ -109,7 +111,7 @@ ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中�
       
       <guid>https://chaoban.github.io/blog/markdown/</guid>
       <description>參考古老師的教學網站 Github 免費架站術！輕鬆打造個人品牌 線上練習 HackMD  Markdown語法  1級標題的語法
-# 這是1級標題  這是1級標題  2級標題的語法</description>
+# 這是1級標題 這是1級標題  2級標題的語法</description>
     </item>
     
   </channel>
