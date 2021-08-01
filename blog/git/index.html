@@ -180,6 +180,28 @@ git push -u origin main
 <p>如果需要 push all branch 可以使用<code>--all</code> 參數</p>
 <p><code>$ git push --all</code></p>
 <hr>
+<h4 id="1--git-checkout-sha1">1.  git checkout SHA1</h4>
+<pre><code>切換到某一次SHA1版本，工作目錄移至SHA1。檔案狀態為該次commit狀態。
+</code></pre>
+<h4 id="2-git-checkout-sha1-filename">2. git checkout SHA1 filename</h4>
+<pre><code>將某一次commit的檔案取出來。
+工作目錄(HEAD)不動。
+(將儲存庫內SHA1版本的某檔案取出至目前工作目錄(HEAD))。
+</code></pre>
+<h5 id="git-checkout-sha1-">git checkout SHA1 .</h5>
+<pre><code>將儲存庫內SHA1版本的所有檔案取出至工作目錄(HEAD)。
+工作目錄(HEAD)不動。
+</code></pre>
+<h4 id="3-git-reset---hard-sha1">3. git reset &ndash;hard SHA1</h4>
+<pre><code>將上述1、2點的資料回復到先前工作目錄(HEAD)狀態。
+</code></pre>
+<h4 id="4-git-checkout-head-filename">4. git checkout HEAD filename</h4>
+<h5 id="git-checkout----filename">git checkout &ndash; filename</h5>
+<h5 id="git-checkout----">git checkout &ndash; .</h5>
+<p>​		將儲存庫HEAD版本的某一個檔案取出至目前工作目錄(HEAD)。</p>
+<p>​		<code>當你更改的檔案還沒有add，不想這次的變更了，可以用這個指令還原。</code></p>
+<hr>
+<h4 id="5-git-reset-head-filename">5. git reset HEAD filename</h4>
 
         </div>
 
