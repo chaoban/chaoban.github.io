@@ -24,7 +24,7 @@
       <guid>https://chaoban.github.io/blog/openmanipulator/</guid>
       <description>記錄一下讓OpenManipuator-X動起來的第一步。
 ROS2不在需要roscore (Master)的角色。在OpenManipulator-X線上文件中，ROS2的相關套件仍未完善。目前仍是ROS1的支援性比較完整。ROS_Robot_Programming一書的講解，仍是以ROS1。以下為ROS1指令。
- 啟動OpenManipulator-X Controller的指令 In Terminal 1</description>
+  啟動OpenManipulator-X Controller的指令 In Terminal 1</description>
     </item>
     
   </channel>

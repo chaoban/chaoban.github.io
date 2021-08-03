@@ -14,8 +14,7 @@
       
       <guid>https://chaoban.github.io/blog/git/</guid>
       <description>為響應黑人平權運動，GitHub宣布從2020/10月起改變新Git儲存庫的預設命名，以main來取代原本的master。
- 1. 下載現有的遠端儲存庫Github的repo git clone https://github.com/chaoban/hahowgit.git
-2. 或者，在本地端新建一個儲存庫，並和遠端儲存庫Github的repo做連結</description>
+  1. 下載現有的遠端儲存庫Github的repo git clone https://github.com/chaoban/hahowgit.git</description>
     </item>
     
   </channel>
