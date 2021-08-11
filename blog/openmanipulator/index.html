@@ -145,6 +145,26 @@
 <pre><code>$ roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch
 </code></pre><h4 id="或者使用keyboard來操作openmanipulator-x"><strong>或者使用Keyboard來操作OpenMANIPULATOR-X</strong></h4>
 <pre><code>$ roslaunch open_manipulator_teleop open_manipulator_teleop_keyboard.launch
+</code></pre><hr>
+<h5 id="安裝gazebo和可能碰到的問題排解出現找不到ros-melodic-ros-control等套件更新金鑰後解決">安裝Gazebo和可能碰到的問題排解。出現找不到ros-melodic-ros-control等套件。更新金鑰後解決。</h5>
+<pre><code>#刪除舊的ROS KEY
+sudo apt-key del 421C365BD9FF1F717815A3895523BAEEB01FA116
+
+#增加新的ROS KEY
+sudo -E apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+
+#這是UBUNTU的KEY。不小心被我刪掉了，所以加回去
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 40976EAF437D05B5
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 3B4FE6ACC0B21F32
+
+#增加GAZEBO KEY
+wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+
+#安裝套件
+sudo apt-get update
+sudo apt-get install ros-melodic-ros-control
+sudo apt-get install ros-melodic-ros-controllers
+sudo apt-get install ros-melodic-gazebo-ros-control
 </code></pre>
         </div>
 
