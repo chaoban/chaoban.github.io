@@ -6,7 +6,19 @@
     <description>Recent content in 學習 on Chaoban&#39;s ThinkTank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 28 Jul 2021 11:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 08:00:00 +0800</lastBuildDate><atom:link href="https://chaoban.github.io/categories/%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RTOS</title>
+      <link>https://chaoban.github.io/blog/rtos/</link>
+      <pubDate>Tue, 28 Sep 2021 08:00:00 +0800</pubDate>
+      
+      <guid>https://chaoban.github.io/blog/rtos/</guid>
+      <description> 在2007至2009年間，工作上專職於嵌入式系統的開發。當時使用的是eCOS。曾將它移植到ARM S3C2440上，也曾經移植到Hitachi SH3 SOC上。做為數位相框產品使用。
+可惜eCOS於2008年後就沒落了。
+uC/OS-II肇始於1992年；FreeRTOS誕生於2003年。因為對於嵌入式作業系統一直有興趣，目前工作之餘，就嘗試自修學習這兩個作業系統。
+  </description>
+    </item>
+    
     <item>
       <title>Git 2.0</title>
       <link>https://chaoban.github.io/blog/git/</link>
