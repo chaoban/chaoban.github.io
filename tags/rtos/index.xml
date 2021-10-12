@@ -13,10 +13,10 @@
       <pubDate>Tue, 28 Sep 2021 08:00:00 +0800</pubDate>
       
       <guid>https://chaoban.github.io/blog/rtos/</guid>
-      <description> 在2007至2009年間，工作上專職於嵌入式系統的開發。當時使用的是eCOS。曾將它移植到ARM S3C2440上，也曾經移植到Hitachi SH3 SOC上。做為數位相框產品使用。
+      <description>在2007至2009年間，工作上專職於嵌入式系統的開發。當時使用的是eCOS。曾將它移植到ARM S3C2440上，也曾經移植到Hitachi SH3 SOC上。做為數位相框產品使用。
 可惜eCOS於2008年後就沒落了。
 uC/OS-II肇始於1992年；FreeRTOS誕生於2003年。因為對於嵌入式作業系統一直有興趣，目前工作之餘，就嘗試自修學習這兩個作業系統。
-  </description>
+  uC/OS-II 檔案結構 應用程式相關 INCLUDES.</description>
     </item>
     
   </channel>
